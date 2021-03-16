@@ -1,0 +1,72 @@
+body {
+    font-family: 'Noto Sans', sans-serif;
+    color: #323232;
+}
+
+.container {
+    padding: 4rem 0.4rem;
+}
+
+.flex-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+/* Typography */
+
+h4 {
+    font-size: 1.25rem;
+    margin-bottom: 0.75rem;
+}
+
+p {
+    margin-bottom: 1.5rem;
+}
+
+/******* card body *******/
+
+
+
+.card {
+    max-width: 23.75rem;
+    margin: 0 auto;
+    border: 1px solid #e8e8e8;
+    box-shadow: 3px 3px 5px #e8e8e8;
+    border-radius: 5px;
+}
+
+.cart-body {
+    padding: 1.5rem;
+}
+
+svg {
+    width: 18px;
+    fill: #718096;
+    margin: 0 0.625rem;
+}
+
+.flex-container > p {
+    color: #718096;
+    margin-bottom: 1.5rem;
+}
+
+.author-img {
+    border-radius: 50%;
+    width: 40px;
+    margin-right: 10px;
+}
+
+@media only screen and (min-width: 800px) {
+    .cart {
+        max-width: 46.875rem;
+        display: flex;
+    }
+
+    picture {
+        flex: 1 1 35%;
+    }
+
+    .cart-body {
+        flex: 1 1 80%;
+    }
+}
